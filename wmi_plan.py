@@ -83,5 +83,3 @@ for row in drugi_rok:
     else:
         typ_zajec = '- Ćwiczenia'
     print(' '.join([row['data'], row['od'], row['przedmiot'], typ_zajec]))
-
-print(pprint.pformat(drugi_rok))
