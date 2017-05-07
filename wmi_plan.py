@@ -1,6 +1,8 @@
 #! /usr/bin/python3
 
-import requests, bs4, pprint, re
+import requests
+import bs4
+import re
 
 URL = 'https://zajecia.wmi.amu.edu.pl/plan_zaoczne/PlanZaoczne.aspx'
 
